@@ -9,7 +9,7 @@ import { map } from 'rxjs/operators';
 })
 export class PeliculasService {
 
-  private apiKey:string = '25407462212415990031cb62f7c197b6';
+  private apiKey:string = 'XXXXXXXXXXXXXXXXXXXXXX';
   private urlMoviedb:string = 'https://api.themoviedb.org/3';
 
   peliculas:any[] = [];
